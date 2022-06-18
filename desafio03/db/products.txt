@@ -1,0 +1,1 @@
+[{"id":1,"name":"SSD 960 MB Patriot Burst","price":14999,"thumbnail":"sdfs245345"},{"id":2,"name":"Monitor LED 43pulg LG curve","price":230999,"thumbnail":"sdfs245345"},{"id":3,"name":"Macbook Pro M1 gris espacial","price":550000,"thumbnail":"sdfjsdfjlsñ"}]
