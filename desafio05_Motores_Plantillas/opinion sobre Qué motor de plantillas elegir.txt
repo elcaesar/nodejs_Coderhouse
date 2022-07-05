@@ -1,0 +1,2 @@
+Por mi parte me siento más a gusto usando handlebars ya que me recuerda al
+motor de plantillas de Laravel llamado Blade que ya lo venia usando en mis proyectos. Pero en este curso aprendi muchisimo con Pug y EJS que me di cuenta que son geniales tambien y que sin dudar los voy a implementar en el futuro.
