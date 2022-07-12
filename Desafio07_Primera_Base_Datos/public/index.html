@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/journal/bootstrap.min.css" 
+    											 integrity="sha384-QDSPDoVOoSWz2ypaRUidLmLYl4RyoBWI44iA5agn6jHegBxZkNqgm2eHb6yZ5bYs" 
+    											 crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <title>Desafio 07 - Primera base de datos</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="row">
+					<div class="col-8 shadow-lg p-3 mb-5 bg-white rounded">
+							<h3 style="color: blue;">Ingrese producto</h3>
+							<form>
+									<div class="mb-3">
+											<label for="nombre" class="form-label"><b><em>Nombre</em></b> </label>
+											<input type="text" class="form-control" id="nombre" name="nombre" required>
+										</div>
+										<div class="mb-3">
+											<label for="precio" class="form-label"><b><em>Precio</em></b></label>
+											<input type="number" class="form-control" id="precio" name="precio" required>
+										</div>
+										<div class="mb-3">
+											<label for="foto" class="form-label"><b><em>URL de Foto</em></b></label>
+											<input type="url" class="form-control" id="foto" name="foto">
+										</div>
+									<input type="button" class="btn btn-success" value="Enviar" id="btnSendProduct">
+									<input type="reset" class="btn btn-info" value="resetear">
+							</form>
+					
+						<div id="productos"></div>
+					</div> <!-- -->
+					<hr>
+					<div class="col-4 shadow-lg p-3 mb-5 bg-white rounded">
+							<h3 style="color: blue;">Centro de Mensajes</h3>
+									<div id="mensajes" class="my-3"></div>
+									<hr>
+									<div class="form-group">
+										<input type="email" id="usermail" class="form-control" placeholder="email usuario">
+										<div class="invalid-feedback"></div>
+									</div>
+									<div class="form-group">
+											<input type="text" id="mensaje" class="form-control" placeholder="Ingrese un mensaje">
+											<div class="invalid-feedback"></div>
+									</div>
+									<div class="form-group mt-3">
+											<input type="button" class="btn btn-primary" value="Enviar" id="btnSendMsg">
+									</div>
+							</form>
+					</div>
+        </div>
+    </div>
+</body>
+<script src="/js/main.js"></script>
+</html>
