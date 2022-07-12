@@ -1,6 +1,6 @@
 const socket = io.connect();
 
-document.getElementById('btnProductoEnviar').addEventListener('click', function (e) {
+document.getElementById('btnSendProduct').addEventListener('click', function (e) {
     const producto = {
         nombre: document.getElementById('nombre').value,
         precio: document.getElementById('precio').value,
@@ -28,7 +28,7 @@ const generarTablaProductos = (items) => {
         })
 }
 
-document.getElementById('btnMensajeEnviar').addEventListener('click', () => {
+document.getElementById('btnSendMsg').addEventListener('click', () => {
     let form_validation = true;
 
     if (!isRequired(document.getElementById('usermail').value)) {
