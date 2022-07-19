@@ -1,0 +1,17 @@
+[
+  {
+    "user" : "cesar",
+    "pass"  : "12345",
+    "role"  : "administrador"
+  },
+  {
+    "user" : "fulano",
+    "pass"  : "1234",
+    "role"  : "usuario"
+  },
+  {
+    "user" : "sultano",
+    "pass"  : "4567",
+    "role"  : "usuario"
+  }
+]
