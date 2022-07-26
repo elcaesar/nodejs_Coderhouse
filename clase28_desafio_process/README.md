@@ -1,4 +1,4 @@
-## Desafío: clase 28: Usanso el objeto process
+## Desafío: clase 28: Usando el objeto process
 #### Como ejecutar el programa en su computadora:
 
 Ejecutar "npm install" para instalar las dependecias.
